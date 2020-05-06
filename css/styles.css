@@ -1,0 +1,100 @@
+/* Master Styles Palette */
+
+/* Core Styles */
+.btn-primary btn-lg {
+  border-radius: 8px; }
+
+.close {
+  color: white; }
+
+/* Social Media Icons*/
+
+.fa-facebook {
+  background: #3B5998; 
+  color: white; 
+  padding: 20px; 
+  font-size: 30px; 
+  width: 30px; 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; 
+  border-radius: 50%;
+}
+
+/* Back to Top Button */
+#btnScrollToTop {
+  position: fixed; 
+  right: 20px; 
+  bottom: 25px; 
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  background: #E62739;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); 
+  color: #FFF; 
+  outline: none; 
+  cursor: pointer;
+  border: none; 
+}
+
+#btnScrollToTop:active {
+  background: #CC2333; 
+}
+
+/*effect-underline*/
+.effect-underline:after {
+  content: '';
+  color: #3046C5;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1); }
+
+/* Blinking Cursur */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #0275d8; } }
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #0275d8; } }
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #0275d8; } }
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #0275d8; } }
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #0275d8; } }
