@@ -8,17 +8,59 @@
   color: white; }
 
 /* Social Media Icons*/
-
-.fa-facebook {
-  background: #3B5998; 
-  color: white; 
+.fa {
   padding: 20px; 
   font-size: 30px; 
-  width: 30px; 
+  width: 70px; 
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; 
   border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #495057; 
+  color: white; 
+}
+
+.fa-linkedin {
+  background: #495057; 
+  color: white; 
+}
+
+.fa-google {
+  background: #495057;
+  color: white; 
+}
+
+.fa-instagram {
+  background: #495057;
+  color: white; 
+}
+
+.fa-github {
+  background: #495057; 
+  color: white;
+}
+
+.fa-facebook:hover {
+  background: #3B5998; 
+}
+
+.fa-linkedin:hover {
+  background: #007BB5;
+}
+
+.fa-google:hover {
+  background: #DD4B39;
+}
+
+.fa-instagram:hover {
+  background: #125688;
+}
+
+.fa-github:hover {
+  background: #212529;
 }
 
 /* Back to Top Button */
