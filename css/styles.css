@@ -10,8 +10,8 @@
 /* Social Media Icons*/
 .fa {
   padding: 20px; 
-  font-size: 30px; 
-  width: 70px; 
+  font-size: 20px; 
+  width: 60px; 
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; 
@@ -49,6 +49,7 @@
 
 .fa-linkedin:hover {
   background: #007BB5;
+  
 }
 
 .fa-google:hover {
