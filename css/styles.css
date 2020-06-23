@@ -64,6 +64,10 @@
   background: #212529;
 }
 
+.Signature span {
+  font-family: Kaushan Script ;
+}
+
 /* Back to Top Button */
 #btnScrollToTop {
   position: fixed; 
