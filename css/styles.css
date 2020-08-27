@@ -69,6 +69,10 @@
   color: #002A50; 
 }
 
+.nav-item span:hover {
+  color: #428BCA
+}
+
 /* Back to Top Button */
 #btnScrollToTop {
   position: fixed; 
